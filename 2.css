@@ -1,0 +1,274 @@
+/*
+* @Author: 文茵
+* @Date:   2019-06-16 17:02:49
+* @Last Modified by:   文茵
+* @Last Modified time: 2019-06-23 00:50:58
+*/
+*{padding:0;margin:0;}
+ul,li,ol{
+	list-style: none;
+}
+a{text-decoration: none;}
+.header-wrap1{
+	background-color: #ffffff;
+	height: 32px;
+}
+.header1{
+	width: 1200px;
+	margin: 0 auto;
+	height: 32px;
+	background-color: #ffffff;
+}
+.header1 p{
+	float: right;
+}
+.header1 p a{
+	color: black;
+	margin-left: 30px;
+    margin-right: 7px;
+}
+.header-wrap2{
+	background-color: #fff;
+	height: 108px;
+}
+.header2{
+	width: 1200px;
+	margin: 0 auto;
+	height: 108px;
+	background-color: #fff;
+}
+.header2 input{
+	width: 543px;
+	height: 43px;border: none;
+	border-right: 1px solid #cccccc;
+	text-align: center;
+}
+
+.logo{padding-top: 30px;}
+.search{
+	width: 600px;margin-left: 410px;border: 1px solid #393942;margin-top: -50px;
+}
+.search{width: 600px; margin-left: 410px;
+	border: 1px solid #393942;margin-top: -50px;float: left;}
+.search img{vertical-align: middle;}
+
+.cart{float:right;margin-top:-50px;margin-right:4px;}
+.header-wrap3{
+	height: 53px;
+	background:#ffffff;
+	border-bottom: 4px solid green;
+}
+.header3{
+	height: 50px;
+	background-color:#ffffff;
+	width: 1200px;
+	margin: 0 auto;
+}
+.menu li{
+	display: inline-block;
+	margin-right: 37px;
+	color: black;
+	line-height: 50px;
+	float: left;
+	width: 78px;
+	height: 50px;
+	text-align: center;
+}
+
+.header3 ul li:first-child{width: 100px;}
+.menu li:hover{
+	border-bottom: 3px solid green;
+}
+.menu li a{
+	color: black;
+}
+.menu li a:hover{
+	color: green;
+}
+.tupian{
+	height: 674px;
+	background: url('images/banner.png') no-repeat center;
+}
+.fixed{
+	position: fixed;
+	right: 0;
+	border-bottom: 1px solid gray;
+}
+.fixed{
+	width: 70px;
+	height: 110px;
+	background-color: #010808;
+	text-align: center;
+	border-bottom: 2px solid gray;
+}
+.fixed img{
+	margin-top: 40px;
+}
+.shouye-wrap{
+	height: 66px;
+	background-color:#ffffff;
+}
+.shouye{
+	height: 66px;
+	background-color:#ffffff;
+	margin: 0 auto;
+	width: 1200px;
+	line-height: 66px;
+}
+.yushi-wrap{
+	height:140px;
+}
+.yushi{
+	height: 140px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.feilei{
+	height: 46px;
+	border: 1px solid gray;
+	border-bottom: 0px;
+}
+.feilei:nth-child(3){
+	border-bottom: 1px solid gray;
+}
+.feilei a{
+	width: 100px;
+	height: 45px;
+	color: black;
+	text-align: center;
+	line-height: 45px;
+	float: left;
+}
+.feilei a:nth-child(1){
+	background-color: #e5e5e5
+}
+.nav-wrap{
+	height:820px;
+	background-color: #ffffff;
+}
+.nav{
+	height: 820px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	width: 1200px;
+	margin-top: 50px;
+}
+.nav ul li{
+	display: inline-block;
+	width: 280px;
+	height:300px;
+	margin-right: 12px;
+	border: 1px solid black;
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+	position: relative;
+}
+.yinbi{
+	width: 280px;
+	height: 50px;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.9;
+    background: #4c4c4c;
+    color: white;
+    font-size: 13px;
+}
+
+.chuxian{
+	width:100%;
+	height:100%;
+	background-color:#4c4c4c;
+	opacity: 0.9;
+	display:none;
+	position:absolute;
+	bottom:0;
+}
+.chuxian p{
+	margin-top: 50px;
+	font-size: 23px;
+	color: white;
+}
+.nav li:hover .chuxian{
+	display:block;
+}
+.di-wrap{
+	height: 100px;
+	background-color: #f5f5f5;
+}
+.di{
+	height: 100px;
+	background-color: #f5f5f5;
+	width: 1200px;
+	margin: 0 auto;
+}
+.di ul li{
+	width: 250px;
+	height: 50px;
+	border-right: 2px solid gray;
+	float: left;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+.di ul li:nth-child(4){
+	border-right: none;
+}
+.foot-wrap1{
+	height: 100px;
+}
+.foot1{
+	height: 60px;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #323232
+}
+.foot1 ul{
+	text-align: center;
+	margin: 0 auto;
+}
+.foot1 ul li{
+	width: 140px;
+	height: 13px;
+	border-right: 2px solid gray;
+	float: left;
+}
+.foot1 p{
+	text-align: center;
+
+}
+.foot1 p a{
+	color: white;
+}
+.foot2 p{
+	color: white;
+}
+.fix{
+
+    width: 60px;
+
+    height: 250px;
+
+    position: fixed;
+
+    right: 0;
+
+    top: 200px;
+
+}
+
+.fix li{
+
+    background-color: #151916;
+
+    height: 110px;
+
+    text-align: center;
+
+    margin-bottom: 1px;
+
+}
+
+.fix img{
+
+    margin-top: 40px;
+}
